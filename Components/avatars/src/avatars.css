@@ -1,13 +1,6 @@
 @import "../../../styles/component.css";
 
-/* :root{
-    --border-radius-s:0.125rem;
-    --border-radius-m:0.25rem;
-    --border-radius-l:0.5rem;
-    --border-radius-xl:1rem;
-    --border-radius-xxl:2rem;
-    --border-radius-circle:50%;
-} */
+
 .avatar-container {
     display: flex;
     justify-content: center;
@@ -15,22 +8,29 @@
     gap: 1rem;
     width: fit-content;
 }
-  
 
-.circle{
+.avatar-badge-container{
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+  
+.badge-circle{
     border-radius: 50%;
 }
-.square{
-    border-radius: var(--border-radius-xl);
+.badge-square{
+    border-radius: 0.5rem;
 }
   
 .avatar-text {
     display: flex;
     justify-content: center;
-    background: orange;
+    background:var(--primary-color);
     align-items: center;
     font-weight: bold;
+    color: var(--secondary-color);
 }
+
 .xl {
     height: 8rem;
     width: 8rem;
@@ -51,37 +51,45 @@
 }
 
 .avatar-badge {
-    height: 1rem;
-    width: 1rem;
-    border: var(--border-radius-m) solid white;
+    /* height: 1.2rem;
+    width: 1.2rem; */
+    border: 0.25rem solid var(--secondary-color);
     position: relative;
     border-radius: 50%;
 }
-  
-  
-.avatar-badge-xl {
-    top: -3.2rem;
-    right: -6rem;
+    
+.avatar-badge-xl{
+    /* 8rem is the height of badge */
+    height: 1.5rem;
+    width: 1.5rem;
+    bottom:calc(8rem*0.4); 
+    left:calc(8rem*0.8);
+
 }
-  
+ 
 .avatar-badge-l {
-    top: -3.0rem;
-    right: -4.4rem;
+    /* 6rem is the height of badge */
+    height: 1.2rem;
+    width: 1.2rem;
+    bottom:calc(6rem*0.4);
+    left:calc(6rem*0.8);
 }
   
 .avatar-badge-m {
+    /* 5rem is the height of badge */
+    width: 1rem;
+    height: 1rem;
+    border: 0.2rem solid white;
+    bottom:calc(5rem*0.4);
+    left:calc(5rem*0.8);
+}
+.avatar-badge-s {
+    /* 4rem is the height of badge */
     width: 0.8rem;
     height: 0.8rem;
     border: 0.2rem solid white;
-    top: -2.8rem;
-    right: -3.6rem;
-}
-.avatar-badge-s {
-    width: 0.6rem;
-    height: 0.6rem;
-    border: 0.2rem solid white;
-    top: -2.8rem;
-    right: -2.8rem;
+    bottom:calc(4rem*0.4);
+    left:calc(4rem*0.8);
 }
 
 .available {
