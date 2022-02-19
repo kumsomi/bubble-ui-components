@@ -1,0 +1,15 @@
+#modal{
+    display:none;
+    z-index: 9999;
+}
+.modal-btn{
+    padding:1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    cursor:pointer;
+}
+.modal-link{
+    padding:1rem;
+    color:var(--primary-color);
+    border:none;
+}

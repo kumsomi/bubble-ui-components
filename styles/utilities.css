@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto:ital,wght@1,300&display=swap");
+
+:root{
+
+    font-size: 62.5%;
+
+    box-sizing: border-box;
+
+    font-family: "Raleway", sans-serif;
+
+    /* colors */
+    --primary-color:#456990;
+    --secondary-color:#ffffff;  
+    --cta-color:#eeb868;
+    --other-color:#8ab0ab;
+    --black:#020202;
+    --grey:grey;
+    
+
+    /* Alerts */
+  --success-background-color: lightgreen;
+	--success-color: darkgreen;
+	--error-background-color: lightcoral;
+	--error-color: darkred;
+	--warning-background-color: lightyellow;
+	--warning-color: darkgoldenrod;
+	--info-background-color: skyblue;
+	--info-color: darkblue;
+
+    /* avatars */
+    --available:#199209;
+    --away: #e4c020;
+    --busy: #ff2600;
+    
+
+    /* font-weights */
+    --font-weight-light:300;
+    --font-weight-regular:400;
+    --font-weight-bold-s:600;
+    --font-weight-bold:700;
+    --font-weight-bold-l:900;
+
+    /* border radius */
+    --border-radius-s:0.31rem; /*5px*/
+    --border-radius-m:0.625rem;/*10px*/
+    --border-radius-l:0.937rem; /*15px*/
+    --border-radius-circle:50%; /*for a full circle*/
+
+
+    /* Spacing */
+    /* Padding */
+    --p-xs:0.5rem;
+    --p-s:1rem;
+    --p-m:1.5rem;
+    --p-l:2rem;
+    --p-xl:2.5rem;
+    --p-xxl:4rem;
+
+    /* margin */
+    --m-xs:0.5rem;
+    --m-s:1rem;
+    --m-m:1.5rem;
+    --m-l:2rem;
+    --m-xl:2.5rem;
+    --m-xxl:4rem;
+
+
+    /* Screen size */
+    --media-xs:480px;/* @media(min-width:480px)-->mobile*/
+    --media-sm:640px;/* @media(min-width:480px)-->mobile*/
+    --media-md:768px;/* @media(min-width:480px)-->mobile*/
+    --media-lg:1024px;/* @media(min-width:480px)-->mobile*/
+    --media-xl:1280px;/* @media(min-width:1280px)-->desktop*/
+    --media-2xl:1536px;/* @media(min-width:1536px)-->for larger screens and HD display*/
+
+}
+.heading{
+    padding: 1rem;
+    margin: 2rem 1rem 2rem 1rem;
+    border-bottom: 0.1rem solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+/* Heading size :- h-1 is the biggest heading*/
+
+.h-1{
+    font-size: 48px;
+    line-height: 64px;
+}
+.h-2{
+    font-size: 32px;
+    line-height: 40px;
+}
+.h-3{
+    font-size: 24px;
+    line-height: 32px;
+}
+.h-4{
+    font-size: 16px;
+    line-height: 24px;
+}
+.h-5{
+    font-size: 8px;
+    line-height: 16px;
+}
+
+/* Text size:- p-1 is the biggest paragraph size */
+.para-5{
+    font-size: 8px;
+    line-height: 16px;
+}
+.para-4{
+    font-size: 16px;
+    line-height: 24px;
+}
+.para-3{
+    font-size: 24px;
+    line-height: 32px;
+}
+.para-2{
+    font-size: 32px;
+    line-height: 40px;
+}
+.para-1{
+    font-size: 48px;
+    line-height: 64px;
+}
+
+
+/* Display */
+.display-none {
+    display: none;
+  }
+  
+  .inline {
+    display: inline;
+  }
+  
+  .inline-block {
+    display: inline-block;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .inline-flex {
+    display: inline-flex;
+  }
+  
+  .grid {
+    display: grid;
+  }
+
+
+  /* Flex properties */
+  .align-i-ctr {
+    align-items: center;
+  }
+  
+  .flex-direction-col {
+    flex-direction: column;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .gap-2p5 {
+    gap: 2.5rem;
+  }
+  
+  .justify-c-ctr {
+    justify-content: center;
+  }
+  
+  .justify-c-sa {
+    justify-content: space-around;
+  }
+  
+  .justify-c-sb {
+    justify-content: space-between;
+  }
+  
+  .shrink-0 {
+    flex-shrink: 0;
+  }
+  
+  @media only screen and (max-width: 67em) {
+    .align-item-center-md {
+      align-items: center;
+    }
+  
+    .flex-col-reverse-md {
+      flex-direction: column-reverse;
+    }
+  }
+
+  /* Font size */
+  .fs-1p2 {
+    font-size: 1.2rem;
+  }
+  
+  .fs-1p5 {
+    font-size: 1.5rem;
+  }
+  
+  .fs-1p6 {
+    font-size: 1.6rem;
+  }
+  
+  .fs-1p7 {
+    font-size: 1.7rem;
+  }
+  
+  .fs-2 {
+    font-size: 2rem;
+  }
+  
+  .fs-3 {
+    font-size: 3rem;
+  }
+  
+  .fs-xs {
+    font-size: 0.8rem;
+  }
+  
+  .fs-sm {
+    font-size: 1.6rem;
+  }
+  
+  .fs-md {
+    font-size: 2.4rem;
+  }
+  
+  .fs-lg {
+    font-size: 3.2rem;
+  }
+  
+  .fs-xl {
+    font-size: 4rem;
+  }
+  
+  .fs-xxl {
+    font-size: 4.8rem;
+  }
+
+
+  /* Font weights */
+  .fw-100 {
+    font-weight: 100;
+  }
+  
+  .fw-200 {
+    font-weight: 200;
+  }
+  
+  .fw-300 {
+    font-weight: 300;
+  }
+  
+  .fw-400 {
+    font-weight: 400;
+  }
+  
+  .fw-500 {
+    font-weight: 500;
+  }
+  
+  .fw-600 {
+    font-weight: 600;
+  }
+  
+  .fw-700 {
+    font-weight: 700;
+  }
+  
+  .fw-800 {
+    font-weight: 800;
+  }
+  
+  .fw-900 {
+    font-weight: 900;
+  }
+  
+  .fw-bold {
+    font-weight: bold;
+  }
+  
+  .fw-bolder {
+    font-weight: bolder;
+  }
+  
+  .fw-lighter {
+    font-weight: lighter;
+  }
+  
+  .fw-normal {
+    font-weight: normal;
+  }
+
+  /* grids */
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  
+  .grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+  
+  .grid-rows-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+  }
+
+  /* Position */
+  .absolute {
+    position: absolute;
+  }
+  
+  .bottom-2 {
+    bottom: 2rem;
+  }
+  
+  .fixed {
+    position: fixed;
+  }
+  
+  .right-2 {
+    right: 2rem;
+  }
+  .top-2{
+    top:2rem;
+  }
+  .left-2{
+    left:2rem;
+  }
+
+  /* text-align */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-left {
+    text-align:left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+
+/* text-decoration property */
+.text-line-through {
+  text-decoration: line-through;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-overline {
+  text-decoration: overline;
+}
+
+/** Translate **/
+
+.translate-y {
+  transition: transform 0.2s;
+}
+
+.translate-y:hover {
+  transform: translateY(-10%);
+}
+
+/* width */
+.max-w-100pct {
+  max-width: 100%;
+}
+
+.max-w-20 {
+  max-width: 20rem;
+}
+
+.max-w-45 {
+  max-width: 45rem;
+}
+
+.w-100pct {
+  width: 100%;
+}
+
+.w-4 {
+  width: 4rem;
+}
+
+.w-6p5 {
+  width: 6.5rem;
+}
+
+.w-24 {
+  width: 24rem;
+}
+
+.w-25 {
+  width: 25rem;
+}
+
+.w-33 {
+  width: 33rem;
+}
+
+.w-45 {
+  width: 45rem;
+}
+
+/* List style type */
+.list-type-circle{
+  list-style-type: circle;
+}
+
+.list-type-square {
+  list-style-type: square;
+}
+
+.list-type-upperroman{
+  list-style-type: upper-roman;
+}
+
+.list-type-loweralpha{
+  list-style-type: lower-alpha;
+}

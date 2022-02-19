@@ -1,0 +1,44 @@
+/* for static rating */
+
+.rating-container{
+    color:var(--shadow-color);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.set{
+    color:var(--cta-color);
+}
+.unset{
+    color:var(--shadow-color);
+}
+
+/* for live rating */
+.ratings {
+    padding: 1rem;
+    border: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+  
+.ratings input {
+    display: none;
+}
+  
+.ratings label, .rating-star {
+    color: var(--shadow-color);
+    cursor: pointer;
+}
+  
+.ratings label:hover, .ratings label:hover ~ label{
+    color: var(--cta-color);
+}
+  
+.ratings input:checked ~ label {
+    color: var(--cta-color);
+}
+  
+.ratings input:checked ~ label:hover, .ratings input:checked ~ label:hover ~ label {
+    color: var(--cta-color);
+}

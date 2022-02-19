@@ -1,0 +1,100 @@
+@import "../../../styles/component.css";
+
+/* :root{
+    --border-radius-s:0.125rem;
+    --border-radius-m:0.25rem;
+    --border-radius-l:0.5rem;
+    --border-radius-xl:1rem;
+    --border-radius-xxl:2rem;
+    --border-radius-circle:50%;
+} */
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: fit-content;
+}
+  
+
+.circle{
+    border-radius: 50%;
+}
+.square{
+    border-radius: var(--border-radius-xl);
+}
+  
+.avatar-text {
+    display: flex;
+    justify-content: center;
+    background: orange;
+    align-items: center;
+    font-weight: bold;
+}
+.xl {
+    height: 8rem;
+    width: 8rem;
+}
+  
+.l {
+    height: 6rem;
+    width:6rem;
+}
+  
+.m {
+    height: 5rem;
+    width: 5rem;
+}
+.s {
+    height: 4rem;
+    width: 4rem;
+}
+
+.avatar-badge {
+    height: 1rem;
+    width: 1rem;
+    border: var(--border-radius-m) solid white;
+    position: relative;
+    border-radius: 50%;
+}
+  
+  
+.avatar-badge-xl {
+    top: -3.2rem;
+    right: -6rem;
+}
+  
+.avatar-badge-l {
+    top: -3.0rem;
+    right: -4.4rem;
+}
+  
+.avatar-badge-m {
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 0.2rem solid white;
+    top: -2.8rem;
+    right: -3.6rem;
+}
+.avatar-badge-s {
+    width: 0.6rem;
+    height: 0.6rem;
+    border: 0.2rem solid white;
+    top: -2.8rem;
+    right: -2.8rem;
+}
+
+.available {
+    background: var(--available);
+}
+.away {
+    background: var(--away);
+}
+  
+.busy {
+    background: var(--busy);
+}
+.grey{
+    background-color: var(grey);
+}
+  

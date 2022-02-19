@@ -1,0 +1,19 @@
+@import "utilities.css";
+@import "margins.css";
+@import "padding.css";
+
+
+/* components */
+@import "../Components/alerts/src/alerts.css";
+@import "../Components/avatars/src/avatars.css";
+@import "../Components/badge/src/badge.css";
+@import "../Components/buttons/src/buttons.css";
+@import "../Components/cards/src/cards.css";
+@import "../Components/grids/src/grids.css";
+@import "../Components/images/src/images.css";
+@import "../Components/inputs/src/inputs.css";
+@import "../Components/images/src/images.css";
+@import "../Components/modal/src/modal.css";
+@import "../Components/rating/src/rating.css";
+@import "../Components/list/src/list.css";
+@import "../Components/toast/src/toast.css";

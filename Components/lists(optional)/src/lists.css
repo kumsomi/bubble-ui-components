@@ -1,0 +1,9 @@
+
+.list-container{
+    border: 3rem solid var(--primary-color);
+}
+ol{
+    justify-content: center;
+    padding:10rem;
+    margin: 10rem;
+}
