@@ -1,199 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- link to css -->
-    <link rel="stylesheet" href="../../styles/component.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Font awesome line of version 5.1 -->
-    <script src="https://kit.fontawesome.com/ca89be07d8.js" crossorigin="anonymous"></script>
-    
-    <title>Cards</title>
+  <!-- link to css -->
+  <link rel="stylesheet" href="../../styles/component.css">
+
+  <!-- Font awesome line of version 5.1 -->
+  <script src="https://kit.fontawesome.com/ca89be07d8.js" crossorigin="anonymous"></script>
+
+  <title>Cards</title>
 </head>
-<body>
-    <h1 class="card-heading">
-        Text Only Card-->Adress Card
-    </h1>
-    <article class="card basic-card .flex-jc-ac card-shadow">
-        <h2 class="name">Name</h2>
-        <p class="address">Address line no.1</p>
-        <p class="city">City</p>
-        <p class="state">State</p>
-        <p class="pincode">Pin code-123456</p>
-        <p class="ph-number"><b>Mobile Number: </b> 9999999999</p>
-      </article>
-  
-      <!-- Horizontal card (start) -->
-      <h1 class="card-heading">
-        Horizontal Card
-      </h1>
-      <article class="card horizontal card-shadow">
-        <div class="horizontal-card-img--container flex-jc-ac">
-          <img
-            src="../assets/coffee mug.avif"
-            alt="coffee cup"
-            class="horizontal-card-img"
-          />
-        </div>
-        <div class="horizontal-card-text--container">
-          <h1>Coffe Cup for coders</h1>
-          <p>IKEA Mug</p>
-          <span class="rating flex-ac">
-            <i class="fas fa-star set"></i>
-            <i class="fas fa-star set"></i>
-            <i class="fas fa-star set"></i>
-            <i class="fas fa-star set"></i>
-            <i class="fas fa-star unset"></i>
-            <p class="secondary-font">| (400 reviews)</p>
-          </span>
-          <div class="pricing flex-ac">
-            <h3>Rs. 699</h3>
-            <p class="secondary-font">
-              <p class="strike-text">Rs. 1024</p>
-            </p>
-            <p class="discount">( Rs. 300 OFF )</p>
-          </div>
-          <p>Select Colors</p>
-          <div class="colors-container">
-            <button class="product-color product-color-1"></button>
-            <button class="product-color product-color-2"></button>
-            <button class="product-color product-color-3"></button>
-            
-          </div>
-          <div class="horizontal-card-btn-container flex-ac">
-            <button class="card-btn card-cart horizintal-card-btn-primary">
-              <span class="cart-icon "><i class="fas fa-shopping-cart"></i></span>
-              <p class="cart-text">Add to Cart</p>
-            </button>
-            <button class="card-btn horizintal-card-btn-secondary">
-              <span class="wishlist-icon"><i class="far fa-heart"></i></span>
-              <p class="wishlist-text">Add to wishlist</p>
-            </button>
-          </div>
-          <div class="horizontal-card-details-container">
-            <h3>Specifications</h3>
-            <div class="specification-column flex-ac">
-              <form class="specifications-form">
-                <section class="specification">
-                  <label for="type" class="specification-key">Designer</label>
-                  <input
-                    type="text"
-                    value="Maria Bisht"
-                    class="specification-value"
-                    readonly
-                  />
-                </section>
-                <section class="specification">
-                  <label for="type" class="specification-key">Materials & care</label>
-                  <input
-                    type="text"
-                    value="Stoneware - Microwave Safe"
-                    class="specification-value"
-                    readonly
-                  />
-                </section>
-                
-              </form>
-              <form action="" class="specifications-form">
-                <section class="specification">
-                  <label for="type" class="specification-key">Country of Origin</label>
-                  <input
-                    type="text"
-                    value="India"
-                    class="specification-value"
-                    readonly
-                  />
-                </section>
-                <section class="specification">
-                  <label for="type" class="specification-key">Measurements</label>
-                  <input
-                    type="text"
-                    value="Height: 11cm, Volume:25cl"
-                    class="specification-value"
-                    readonly
-                  />
-                </section>
-              </form>
-            </div>
-          </div>
-        </div>
-      </article>
-      <!-- Horizontal card (ends) -->
 
-      <!-- Vertical card with a badge(start) -->
-      <h1 class="card-heading">
-        Vertical Card with badge
-      </h1>
-      <article class="card vertical card-shadow">
-        <section class="card-image-container flex-jc-ac">
-          <img src="../assets/coffee mug.avif" alt="Coffee cup" class="card-image" />
-        </section>
-        <button class="card-btn card-wishlist">
-          <span class="wishlist-icon"><i class="far fa-heart"></i></span>
-          <p class="wishlist-text">Add to wishlist</p>
-        </button>
-        <section class="card-content">
-          <h1 class="card-title">Coffe Cup for coders</h1>
-          <p class="card-category">IKEA Mug</p>
-          <span class="card-price-tag">
-            <p>Rs. 699</p>
-            <p class="strike-text">1024</p>
-            <p class="discount">(50%)</p>
-          </span>
-        </section>
-        <section class="card-tag">
-          <span class="card-review">
-            <p>4</p>
-            <span class="review-star">
-              <i class="fas fa-star"></i>
-            </span>
-          </span>
-        </section>
-        <button class="card-btn card-cart">
-          <span class="cart-icon"><i class="fas fa-shopping-cart"></i></span>
-          <p class="cart-text">Add to Cart</p>
-        </button>
-      </article>
-      <!-- Vertical card with a badge(end) -->
+<body>
+  <h1 class="card-heading">
+    Text Only Card-->Adress Card
+  </h1>
+
+  <!-- Basic card -->
+  <article class="card basic-card .flex-jc-ac ">
+    <h2 class="name">Name</h2>
+    <p class="address">Address line no.1</p>
+    <p class="city">City</p>
+    <p class="state">State</p>
+    <p class="pincode">Pin code-123456</p>
+    <p class="ph-number"><b>Mobile Number: </b> 9999999999</p>
+  </article>
+
+  <!-- Horizontal card (start) -->
+  <h1 class="card-heading">
+    Horizontal Card
+  </h1>
+  <!-- Card component -->
+  <article class="card horizontal ">
+    <!-- Card image -->
+    <div class="horizontal-card-img--container flex-jc-ac">
+      <img src="../assets/coffee mug.avif" alt="coffee cup" class="horizontal-card-img" />
+    </div>
+
+    <!-- Horizontal card container -->
+    <div class="horizontal-card-text--container">
       
-      <!-- Text overlay card(start) -->
-      <h1 class="card-heading">
-        Text overlay card
-      </h1>
-  
-      <article class="card vertical card-shadow">
-        <article class="card-text-overlay flex-jc-ac">
-          <div class="overlay-text">Out of Stock</div>
-        </article>
-        <section class="card-image-container flex-jc-ac">
-          <img src="../assets/coffee mug.avif" alt="Coffee cup" class="card-image" />
-        </section>
-        <button class="card-btn card-wishlist">
-          <span class="wishlist-icon"><i class="far fa-heart"></i></span>
-          <p class="wishlist-text">Add to wishlist</p>
-        </button>
-        <section class="card-content">
-          <h1 class="card-title">Coffe Cup for coders</h1>
-          <p class="card-category">IKEA Mug</p>
-          <span class="card-price-tag">
-            <p>Rs. 699</p>
-            <p class="strike-text">1024</class>
-            <p class="discount">(50%)</p>
-          </span>
-        </section>
-        <section class="card-tag">
-          <span class="card-review">
-            <p>4</p>
-            <span class="review-star">
-              <i class="fas fa-star"></i>
-            </span>
-          </span>
-        </section>
+      <!--Card heading  -->
+      <p>IKEA Mug</p>
+      <h1 class="horizontal-card-heading">Coffe Cup for coders</h1>
+
+      <!-- Product color -->
+      <p>Select Colors</p>
+      <div class="colors-container">
+        <button class="product-color product-color-1"></button>
+        <button class="product-color product-color-2"></button>
+        <button class="product-color product-color-3"></button>
+      </div>
+
+      <!-- Price tag -->
+      <span class="card-price-tag">
+        <p>Rs <span class="strike-text">1024</span></p>
+        <p>699</p>
+      </span>
+
+
+      <!-- card details-->
+      <div class="horizontal-card-details-container">
+        
+        <!-- Product description -->
+        <h3>Description</h3>
+        <div >
+          <section class="description">
+            <ul>
+              <li>Made in India.</li>
+              <li>Stoneware is used to make this product. </li>
+              <li>Microwave safe product</li>
+              <li>Measurements: height:11cm, Volume: 25cl</li>
+            </ul>
+          </section>
+        </div>
+
+        <!-- car and wishlist buttons -->
+        <div class="horizontal-card-btn-container flex-ac">
+          <button class="card-btn card-cart horizintal-card-btn-primary">
+            <span class="cart-icon "><i class="fas fa-shopping-cart"></i></span>
+            <p class="cart-text">Add to Cart</p>
+          </button>
+          <button class="card-btn horizontal-card-btn-secondary">
+            <span class="wishlist-icon"><i class="far fa-heart"></i></span>
+            <p class="wishlist-text">Add to wishlist</p>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </article>
+  <!-- Horizontal card (ends) -->
+
+  <!-- Vertical card with a badge(start) -->
+  <h1 class="card-heading">
+    Vertical Card with badge
+  </h1>
+  <article class="card vertical ">
+
+    <!-- Card image -->
+    <section class="card-image-container flex-jc-ac">
+      <img src="../assets/coffee mug.avif" alt="Coffee cup" class="card-image" />
+    </section>
+
+    <!-- Card content -->
+    <section class="card-content">
+      <h1 class="card-title">Coffe Cup for coders</h1>
+      <p class="card-category">IKEA Mug</p>
+      <span class="card-price-tag">
+        <p>Rs <span class="strike-text">1024</span></p>
+        <p>699</p>
+      </span>
+    </section>
+
+    <!-- Card tag -->
+    <section class="card-tag">
+      <span class="card-review">
+        <span class="icon-btn">
+          <i class="fas fa-heart"></i>
+        </span>
+      </span>
+    </section>
+
+    <!-- Add to cart button -->
+    <button class="card-btn card-cart">
+      <span class="cart-icon"><i class="fas fa-shopping-cart"></i></span>
+      <p class="cart-text">Add to Cart</p>
+    </button>
+
+  </article>
+  <!-- Vertical card with a badge(end) -->
+
+  <!-- Text overlay card(start) -->
+  <h1 class="card-heading">
+    Text overlay card
+  </h1>
+
+  <article class="card vertical ">
+    <!-- Overlay text -->
+    <article class="card-text-overlay flex-jc-ac">
+      <div class="overlay-text">Out of Stock</div>
     </article>
-    <!-- Text overlay card(start) -->
-  
+
+    <!-- Card image -->
+    <section class="card-image-container flex-jc-ac">
+      <img src="../assets/coffee mug.avif" alt="Coffee cup" class="card-image" />
+    </section>
+
+    <!-- Card content -->
+    <section class="card-content">
+      <h1 class="card-title">Coffe Cup for coders</h1>
+      <p class="card-category">IKEA Mug</p>
+      <span class="card-price-tag">
+        <p>Rs <span class="strike-text">1024</span></p>
+        <p>699</p>
+
+      </span>
+    </section>
+
+    <!-- Card-tag -->
+    <section class="card-tag">
+      <span class="card-review">
+        <span class="icon-btn">
+          <i class="fas fa-heart"></i>
+        </span>
+      </span>
+    </section>
+  </article>
+  <!-- Text overlay card(end) -->
+
+
+
 </body>
+
 </html>
