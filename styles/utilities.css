@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto:ital,wght@1,300&display=swap");
 
 :root{
-
     font-size: 62.5%;
 
     box-sizing: border-box;
@@ -12,9 +11,21 @@
     --primary-color:#456990;
     --secondary-color:#ffffff;  
     --cta-color:#eeb868;
-    --other-color:#8ab0ab;
+    /* --other-color:#8ab0ab; */
     --black:#020202;
     --grey:grey;
+
+
+    --screen-background-color: #f3f4f6;
+    --background-color: #d4d4d8;
+    --hover-color: #d4d4d8;
+    --shadow-color: #9ca3af;
+    --heading-font-1: #f1f5f9;
+    
+    /* product-colors */
+    --product-color-1:#459077;
+    --product-color-2: #136fa1;
+    --product-color-3: #0d1412;
     
 
     /* Alerts */
@@ -67,14 +78,26 @@
 
     /* Screen size */
     --media-xs:480px;/* @media(min-width:480px)-->mobile*/
-    --media-sm:640px;/* @media(min-width:480px)-->mobile*/
-    --media-md:768px;/* @media(min-width:480px)-->mobile*/
-    --media-lg:1024px;/* @media(min-width:480px)-->mobile*/
+    --media-sm:640px;/* @media(min-width:480px)-->tablet*/
+    --media-md:768px;/* @media(min-width:480px)-->desktop*/
+    --media-lg:1024px;/* @media(min-width:480px)-->laptop*/
     --media-xl:1280px;/* @media(min-width:1280px)-->desktop*/
     --media-2xl:1536px;/* @media(min-width:1536px)-->for larger screens and HD display*/
 
 }
+
+
+body {
+  background: var(--screen-background-color);
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .heading{
+    width:90%;
     padding: 1rem;
     margin: 2rem 1rem 2rem 1rem;
     border-bottom: 0.1rem solid var(--primary-color);
@@ -132,11 +155,11 @@
     display: none;
   }
   
-  .inline {
+.inline {
     display: inline;
   }
   
-  .inline-block {
+.inline-block {
     display: inline-block;
   }
   
