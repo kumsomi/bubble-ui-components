@@ -115,8 +115,14 @@ body {
   color: var(--primary-color);
 }
 
+/* for removing underline from the default link */
 .no-link{
   text-decoration: none;
+}
+
+/* for removing bullets from ul */
+.no-bullet{
+  list-style: none;
 }
 
 /* Heading size :- h-1 is the biggest heading*/
