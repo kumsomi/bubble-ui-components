@@ -17,17 +17,13 @@
 
 <body>
   <h1 class="card-heading">
-    Text Only Card-->Adress Card
+    Text Only Card with shadow
   </h1>
 
   <!-- Basic card -->
-  <article class="card basic-card .flex-jc-ac ">
-    <h2 class="name">Name</h2>
-    <p class="address">Address line no.1</p>
-    <p class="city">City</p>
-    <p class="state">State</p>
-    <p class="pincode">Pin code-123456</p>
-    <p class="ph-number"><b>Mobile Number: </b> 9999999999</p>
+  <article class="card basic-card card-shadow">
+    <h2 >Karma</h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro veritatis doloremque rerum distinctio nihil consequatur quod amet. Non, aspernatur impedit exercitationem iusto, quibusdam, at repellendus culpa delectus aut accusamus hic.</p>
   </article>
 
   <!-- Horizontal card (start) -->
@@ -174,7 +170,47 @@
   <!-- Text overlay card(end) -->
 
 
-
+    <!-- Dismiss card(start) -->
+    <div class="dismiss-card">
+    <h1 class="card-heading">
+      Dismiss Card
+    </h1>
+    <article class="card vertical ">
+  
+      <!-- Card image -->
+      <section class="card-image-container flex-jc-ac">
+        <img src="../assets/coffee mug.avif" alt="Coffee cup" class="card-image" />
+      </section>
+  
+      <!-- Card content -->
+      <section class="card-content">
+        <h1 class="card-title">Coffe Cup for coders</h1>
+        <p class="card-category">IKEA Mug</p>
+        <span class="card-price-tag">
+          <p>Rs <span class="strike-text">1024</span></p>
+          <p>699</p>
+        </span>
+      </section>
+  
+      <!-- Card tag -->
+      <section class="card-tag">
+        <span class="card-review">
+          <span class="icon-btn">
+            <button class="far fa-times-circle cross dismiss-card-btn"></button> 
+          </span>
+        </span>
+      </section>
+  
+      <!-- Add to cart button -->
+      <button class="card-btn card-cart">
+        <span class="cart-icon"><i class="fas fa-shopping-cart"></i></span>
+        <p class="cart-text">Add to Cart</p>
+      </button>
+  
+    </article>
+  </div>
+  <!--Dismiss Card (|end) -->
+<script src="src/cards.js"></script>
 </body>
 
 </html>

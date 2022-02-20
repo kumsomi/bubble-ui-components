@@ -27,12 +27,18 @@
   margin: auto;
 }
 
+.card-shadow{
+  box-shadow: 1rem 1rem 1rem var(--primary-color);
+}
+
 .basic-card {
   height: 20rem;
   width: 30rem;
+  /* justify-content: flex-start; */
   border: 0.2rem solid var(--primary-color);
   outline: 1rem solid var(--secondary-color);/*outline: width style color*/
 }
+
 .vertical {
   width: 25rem;
 }
@@ -77,7 +83,6 @@
   gap: 0.3rem;
   padding: 0;
   font-weight: bold;
-  
 }
 
 .card-price-tag {
@@ -162,6 +167,10 @@
   font-size: 2rem;
   font-weight: bolder;
   opacity: 100%;
+}
+
+.inactive-card{
+  visibility: hidden;
 }
 
 .horizontal {
