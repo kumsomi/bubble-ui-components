@@ -1,3 +1,4 @@
+
 .input-container{
   font-size: 1rem;
   line-height: 1.5;
@@ -8,10 +9,8 @@
   display: block;
 }
 .input-btn, .input-text{
-  border:none;
   box-shadow:none;
   font:inherit;
-  
 }
 .input-btn{
   width:100%;
@@ -19,14 +18,12 @@
 
 .input-text{
   width:95%;
+  border:2px solid var(--primary-color)
 }
-
-
 .input-text:focus{
-  outline:0;
-  box-shadow: 0 0 0 0.25rem var(--cta-color);
-  
+  border-color: var(--primary-color);
 }
+
 .login-form{
   position:absolute;
   top:50%;
@@ -36,7 +33,6 @@
   max-width:90%;
   margin: 1rem;
   background-color:var(--secondary-color);
-  /* min-width: 30%; */
   display: flex;
   flex-wrap: wrap;
   display:grid;
@@ -47,6 +43,7 @@
   box-shadow: 0 0.75rem 2rem 0 var(--shadow-color);
   font-size: 1.5rem;
   padding-bottom: 10rem;
+  border-radius: 1rem;
 }
 
 .input-group{
@@ -61,8 +58,10 @@
 }
 .input-text{
   padding:0.75rem;
-  border:2px solid var(--secondary-color);
-  border-radius: 0.25rem;;
+  border:2px solid var(--primary-color);
+  border-radius: 0.25rem;
+  border-radius: 1rem;
+
 }
 .input-btn{
   cursor:pointer;
@@ -70,7 +69,7 @@
   opacity: 70%;
   border: 0.2rem solid var(--primary-color);
   padding:0.75rem;
-  border-radius: 0.2rem;
+  border-radius: 1rem;
   box-shadow: 0.15rem 0.15rem var(--shadow-color);
   color:var(--secondary-color);
 }
@@ -99,3 +98,29 @@
 .span-2{
   grid-column: span 2;
 }
+
+/* error message */
+.error-message {
+	display: none;
+	font-weight: bold;
+	color:var(--color-invalid);
+}
+
+
+
+/* validating the input */
+input:not(:focus):not(:placeholder-shown):invalid {
+	border-color: var(--color-invalid);
+}
+
+input:not(:focus):not(:placeholder-shown):invalid ~ 
+.error-message{
+	display: block;	
+}
+
+/* Only show valid ring while not focused and if a value is entered */
+/* :empty won't work here as that targets elements that have no childeren. Therefore we abuse :placeholder-shown */
+input:not(:focus):not(:placeholder-shown):valid {
+	border-color: var(--color-valid);
+}
+

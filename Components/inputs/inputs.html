@@ -19,16 +19,25 @@
   </h1>
   <div class="input-container">
   <form class="login-form">
+    
     <button id="close" class="input-btn close-btn span-2">X</button>
     <h1 class="input-group span-2 ">Login to your account</h1>
+    
+    <!-- First input -->
     <div class="input-group span-2">
       <label for="" class="input-label">Email</label>
-      <input type="email" class="input-text" placeholder="Your email address">
+      <input type="email" class="input-text" placeholder=" " required>
+      <p class="error-message">Please enter a valid e-mail address</p>
+
     </div>
+    <!-- error message -->
+   
+
     <div class="input-group span-2">
       <label for="" class="input-label">Password</label>
-      <input type="password" class="input-text" placeholder="Your secret password">
+      <input type="password" class="input-text" placeholder="Your secret password" required>
     </div>
+    
     <div class="input-group span-2">
       <a href="#" class="input-link">Forgot password</a>
     </div>
