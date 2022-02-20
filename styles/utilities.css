@@ -118,12 +118,28 @@ body {
 /* for removing underline from the default link */
 .no-link{
   text-decoration: none;
+  color:var(--primary-color);
+  font-size: 1rems;
 }
 
 /* for removing bullets from ul */
 .no-bullet{
   list-style: none;
 }
+
+
+/* Color classes */
+.primary-color{
+  color: var(--primary-color);
+}
+.secondary-color{
+  color:var(--secondary-color);
+}
+.cta-color{
+  color:var(--cta-color);
+}
+
+
 
 /* Heading size :- h-1 is the biggest heading*/
 
@@ -202,10 +218,6 @@ body {
 
 .inline-flex {
   display: inline-flex;
-}
-
-.grid {
-  display: grid;
 }
 
 
@@ -355,7 +367,13 @@ body {
   font-weight: normal;
 }
 
+
 /* grids */
+.grid {
+  display: grid;
+}
+
+/* Grid properties */
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
