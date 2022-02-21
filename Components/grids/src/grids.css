@@ -1,5 +1,5 @@
 .grid-items{
-    background-color: var(--primary-color);
+    background-color: var(--cta-color);
     color:var(--secondary-color);
     font-size: 5rem;
     margin:5px;
