@@ -259,7 +259,7 @@
 
 
 /* For tablets and mobile screen */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 800px) {
   .vertical{
     width: 70%;
   }
