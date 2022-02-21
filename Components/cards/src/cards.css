@@ -163,7 +163,6 @@
   font-size: 4rem;
   font-weight:bolder;
   opacity: 100%;
-  z-index: 999999;
 }
 
 .inactive-card{
@@ -247,18 +246,14 @@
   color: var(--cta-color);
   border: 0;
 }
-/* .strike-text{
-  text-decoration: line-through;
-  text-decoration-thickness: 0.2rem;
-  text-decoration-color: var(--cta-color);
-} */
+
 
 .description ul{
   margin: 1rem 2rem 2rem;
 }
 
 
-/* For tablets and mobile screen */
+/* For tablets screen */
 @media screen and (max-width: 800px) {
   .vertical{
     width: 70%;
@@ -279,3 +274,4 @@
   }
 
 }
+
