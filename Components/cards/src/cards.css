@@ -28,15 +28,12 @@
 }
 
 .card-shadow{
-  box-shadow: 1rem 1rem 1rem var(--primary-color);
+  box-shadow: 2px 2px 5px var(--primary-color);
 }
 
 .basic-card {
   height: 20rem;
   width: 30rem;
-  /* justify-content: flex-start; */
-  border: 0.2rem solid var(--primary-color);
-  outline: 1rem solid var(--secondary-color);/*outline: width style color*/
 }
 
 .vertical {
