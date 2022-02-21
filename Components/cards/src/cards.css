@@ -18,7 +18,6 @@
 
 .card {
   display: grid;
-  padding: 1rem;
   position: relative;
   border-radius: 1rem;
   background-color:var(--secondary-color);
@@ -34,6 +33,7 @@
 .basic-card {
   height: 20rem;
   width: 30rem;
+  padding: 1rem;
 }
 
 .vertical {
