@@ -147,12 +147,12 @@
 }
 
 .card-text-overlay {
-  opacity: 0.3;
+  opacity: 0.5;
   text-align: center;
   font-weight:bold;
   background-color: var(--primary-color);
   grid-column: 1/2;
-  grid-row: 1/6;
+  grid-row: 1/5;
   position: relative;
   border-radius: 1rem;
 }
@@ -160,9 +160,10 @@
   background-color: var(--primary-color);
   color: var(--black);
   border: 1rem solid var(--black);
-  font-size: 2rem;
-  font-weight: bolder;
-  opacity: 80%;
+  font-size: 4rem;
+  font-weight:bolder;
+  opacity: 100%;
+  z-index: 999999;
 }
 
 .inactive-card{
