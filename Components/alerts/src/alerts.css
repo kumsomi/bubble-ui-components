@@ -3,8 +3,8 @@
 
 .alert--container{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    /* flex-wrap: wrap;
+    flex-direction: row; */
     gap: 1rem;
     font-size: 1.75rem;
     width: max-content;
