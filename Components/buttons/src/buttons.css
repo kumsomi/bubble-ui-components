@@ -31,10 +31,8 @@
 }
   
 .link-btn:hover {
-    /* color: var(--cta-color); */
     border-radius: 1rem;
     padding: 1rem;
-    /* border-bottom: 0px solid var(--cta-color); */
     border: 0.1rem solid var(--primary-color);
     background-color: var(--cta-color);
     font-weight: var(--font-weight-bold);
@@ -62,7 +60,6 @@
     color: var(--cta-color);
     border-color: var(--primary-color);
     cursor: pointer;
-    /* margin:2rem; */
 }
 
 .icon-btn:active{
@@ -73,11 +70,10 @@
     background: var(--primary-color);
     padding: 1rem;
     border-radius: 50%;
-    font-family: inherit;
     border: 1px solid var(--primary-color);
     color: var(--secondary-color);
     font-size: 1.2rem;
-    z-index: var(--z-index);
+    z-index: 20;
 }
 .disabled-btn{
     box-shadow: 0 0 var(--shadow-color);
