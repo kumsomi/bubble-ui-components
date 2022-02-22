@@ -4,13 +4,15 @@ const modal = document.getElementById("modal");
 
 const close = document.getElementById("close");
 
+// const body = document.getElementsByTagName("body");
+
 const showlink = document.getElementById("show-link");
 
 showlink.addEventListener("click", () => {
   modal.style.display = "block";
-  modal.appendTo("body") 
+  // modal.appendTo("body");
+  
 });
-
 
 
 showbtn.addEventListener("click", () => {
