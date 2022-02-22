@@ -10,7 +10,7 @@ const showlink = document.getElementById("show-link");
 
 showlink.addEventListener("click", () => {
   modal.style.display = "block";
-  // modal.appendTo("body");
+  modal.appendTo("body");
   
 });
 
