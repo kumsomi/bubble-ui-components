@@ -1,13 +1,13 @@
 /* for static rating */
 
 .rating-container{
-    color:#daa520;
+    color:var(--rating-color);
     display: flex;
     align-items: center;
     padding: 1rem;
 }
 .set{
-    color:var(--cta-color);
+    color:var(--rating-color);
 }
 .unset{
     color:var(--shadow-color);
@@ -32,13 +32,13 @@
 }
   
 .ratings label:hover, .ratings label:hover ~ label{
-    color: var(--cta-color);
+    color: var(--rating-color);
 }
   
 .ratings input:checked ~ label {
-    color: var(--cta-color);
+    color: var(--rating-color);
 }
   
 .ratings input:checked ~ label:hover, .ratings input:checked ~ label:hover ~ label {
-    color: var(--cta-color);
+    color: var(--rating-color);
 }
