@@ -31,20 +31,22 @@
 
 
   /* Alerts */
-  --success-background-color: lightgreen;
-  --success-color: darkgreen;
-  --error-background-color: lightcoral;
-  --error-color: darkred;
-  --warning-background-color: lightyellow;
-  --warning-color: darkgoldenrod;
-  --info-background-color: skyblue;
-  --info-color: darkblue;
+  --success-background-color: #90ee90;
+  --success-color: #006400;
+  --error-background-color: #f09696;
+  --error-color: #8b0000;
+  --warning-background-color: #ffffe0;
+  --warning-color: #8a5f04;
+  --info-background-color: #87ceeb;
+  --info-color: #00008b;
 
   /* avatars */
   --available: #199209;
   --away: #e4c020;
   --busy: #ff2600;
 
+  /* rating-color */
+  --rating-color: #daa520;
 
   /* font-weights */
   --font-weight-light: 300;

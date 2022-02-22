@@ -1,7 +1,7 @@
 /* for static rating */
 
 .rating-container{
-    color:var(--shadow-color);
+    color:#daa520;
     display: flex;
     align-items: center;
     padding: 1rem;
