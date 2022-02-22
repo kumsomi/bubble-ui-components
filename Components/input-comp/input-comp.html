@@ -19,11 +19,10 @@
         input
     </h1>
     <div>
-        <!-- inline input -->
-        <div class="input-group input-default m-1 input-inline">
+        <!-- default input -->
+        <div class="input-group">
             <label class="text-label flex align-i-ctr" for="">
                 Name
-                <!-- id="input-inline-name" -->
                 <input type="text"  class="input-text" placeholder="Enter your name here">
             </label>
             <span class="text-message "></span>
@@ -32,12 +31,13 @@
 
         <!-- input error -->
         <div class="input-group input-error">
-            <label class="text-label flex--col" for=" ">
+            <label class="text-label" for=" ">
                 Email
                 <input type="email" id=" " class="input-text" placeholder="Enter your email...">
             </label>
             <span class="text-message-error ">Incorrect Email</span>
         </div>
+        
         <!-- input success -->
         <div class="input-group input-success m-1">
             <label class="text-label flex-col" for="input-strong-password">
@@ -46,7 +46,7 @@
             </label>
             <span class="text-message-success">Strong Password</span>
         </div>
-        
+
     </div>
 
 </body>
