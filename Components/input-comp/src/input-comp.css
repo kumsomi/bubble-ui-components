@@ -1,0 +1,371 @@
+@import "../../../styles/utilities.css";
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin: 2rem;
+    font-size: large;
+}
+
+.input-text{
+    padding:1rem;
+    margin: 1rem;
+}
+.input-text, .input-textbox {
+    padding: 1rem;
+    border-radius: 0.1rem;
+
+    border: 0.1rem solid var(--primary-color);
+
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.input-text:focus{
+    border: 0.2rem solid var(--primary-color);
+    outline:0;
+}
+.text-message-error {
+    /* display:none; */
+    font-size:medium;
+    font-weight: bold;
+    color:var(--error-color);
+
+}
+
+ /* .input-error .input-group:focus{
+    border-color: var(--error-color);
+    background-color: var(--error-background-color);
+} */
+
+.input-error .input-text, .text-label:focus {
+    border-color: var(--error-color);
+    color:var(--error-color);
+    outline:0;
+    display:block;
+}
+
+.input-success .input-text, .text-message-success ,
+.input-inline.input-error .text-label:focus {
+    border-color: var(--success-color);
+    color:var(--success-color);
+    outline:0;
+    display:block;
+}
+.text-message-success{
+    font-size:medium;
+    font-weight: bold;
+    color:var(--success-color);
+
+}
+
+
+/* .input-error .input-text,
+.text-message .input-textbox, .text-message,
+.input-inline.input-error .text-label:focus {
+    border-color: var(--error-background-color);
+    color:var(--error-background-color);
+    background-color: none;
+    outline:0;
+    display:block
+} */
+
+    /* font-size: var(--text-sm);
+    font-weight: var(--weight-regular); */
+
+/* .input-group {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin: 2rem;
+}
+
+.text-label {
+    font-size: var(--text-sm);
+}
+
+.text-label.flex--row {
+    gap: var(--space-0-5);
+}
+
+.input-text, .input-textbox {
+    padding: 1rem;
+    border-radius: 0.1rem;
+    -webkit-border-radius: var(--br-4);
+    -moz-border-radius: var(--br-4);
+    -ms-border-radius: var(--br-4);
+    -o-border-radius: var(--br-4);
+    border: 1px solid var(--text-color);
+
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+
+    font-size: var(--text-sm);
+    font-weight: var(--weight-regular);
+}
+
+.input-inline .input-text {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.input-inline .text-label {
+    background-color: #ffffff;
+    border-radius: var(--br-4);
+    border: 1px solid var(--primary-color);
+    flex-wrap: wrap;
+}
+
+.input-inline.input-default .text-label {
+    border-color: var(--primary-color);
+}
+
+.input-inline .input-text:focus {
+    outline: none;
+}
+
+.textbox-group {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+textarea {
+    max-width: 100%;
+    resize: both;
+}
+
+.text-message {
+    display: none;
+    font-size: 0.8rem;
+    font-weight: var(--weight-sbold);
+}
+
+.input-default .input-text,
+.textbox-default .input-textbox,
+.input-inline.input-default .text-label {
+    border-color: var(--primary-color);
+}
+
+.input-success .input-text,
+.textbox-success .input-textbox,
+.input-inline.input-success .text-label {
+    border-color: var(--success-color);
+}
+
+.input-error .input-text,
+.textbox-error .input-textbox,
+.input-inline.input-error .text-label {
+    border-color: var(--error-color);
+}
+
+.input-warning .input-text,
+.textbox-warning .input-textbox,
+.input-inline.input-warning .text-label {
+    border-color: var(--warning-color);
+}
+
+.input-error .text-message, 
+.input-warning .text-message,
+.input-success .text-message {
+    display: inline-block;
+   
+}
+
+.textbox-error .text-message, 
+.textbox-warning .text-message,
+.textbox-success .text-message {
+    display: inline-block;
+}
+
+.input-error .text-message,
+.textbox-error .text-message {
+    color: var(--error-color);
+}
+
+.input-warning .text-message,
+.textbox-warning .text-message  {
+    color: var(--warning-color);
+}
+
+.input-success .text-message,
+.textbox-success .text-message  {
+    color: var(--success-color);
+}
+
+.input-text:focus,
+.input-inline .text-label:focus-within {
+    outline: var(--text-color) solid 0.1rem;
+}
+
+.input-default .input-text:focus,
+.textbox-default .input-textbox:focus,
+.input-inline.input-default .text-label:focus-within {
+    outline-color: var(--primary-active-color);
+}
+
+.input-error .input-text:focus,
+.textbox-error .input-textbox:focus,
+.input-inline.input-error .text-label:focus-within  {
+    outline-color: var(--error-color);
+}
+
+.input-warning .input-text:focus,
+.textbox-warning .input-textbox:focus,
+.input-inline.input-warning .text-label:focus-within  {
+    outline-color: var(--warning-color);
+}
+
+.input-success .input-text:focus,
+.textbox-success .input-textbox:focus,
+.input-inline.input-success .text-label:focus-within  {
+    outline-color: var(--success-color);
+}
+@import "../../../styles/utilities.css";
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin: 2rem;
+}
+
+.text-label {
+    font-size: var(--text-sm);
+}
+
+.text-label.flex--row {
+    gap: var(--space-0-5);
+}
+
+.input-text, .input-textbox {
+    padding: 1rem;
+    border-radius: 0.1rem;
+    -webkit-border-radius: var(--br-4);
+    -moz-border-radius: var(--br-4);
+    -ms-border-radius: var(--br-4);
+    -o-border-radius: var(--br-4);
+    border: 1px solid var(--text-color);
+
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+
+    font-size: var(--text-sm);
+    font-weight: var(--weight-regular);
+}
+
+.input-inline .input-text {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.input-inline .text-label {
+    background-color: #ffffff;
+    border-radius: var(--br-4);
+    border: 1px solid var(--primary-color);
+    flex-wrap: wrap;
+}
+
+.input-inline.input-default .text-label {
+    border-color: var(--primary-color);
+}
+
+.input-inline .input-text:focus {
+    outline: none;
+}
+
+.textbox-group {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+textarea {
+    max-width: 100%;
+    resize: both;
+}
+
+.text-message {
+    display: none;
+    font-size: 0.8rem;
+    font-weight: var(--weight-sbold);
+}
+
+.input-default .input-text,
+.textbox-default .input-textbox,
+.input-inline.input-default .text-label {
+    border-color: var(--primary-color);
+}
+
+.input-success .input-text,
+.textbox-success .input-textbox,
+.input-inline.input-success .text-label {
+    border-color: var(--success-color);
+}
+
+.input-error .input-text,
+.textbox-error .input-textbox,
+.input-inline.input-error .text-label {
+    border-color: var(--error-color);
+}
+
+.input-warning .input-text,
+.textbox-warning .input-textbox,
+.input-inline.input-warning .text-label {
+    border-color: var(--warning-color);
+}
+
+.input-error .text-message, 
+.input-warning .text-message,
+.input-success .text-message {
+    display: inline-block;
+   
+}
+
+.textbox-error .text-message, 
+.textbox-warning .text-message,
+.textbox-success .text-message {
+    display: inline-block;
+}
+
+.input-error .text-message,
+.textbox-error .text-message {
+    color: var(--error-color);
+}
+
+.input-warning .text-message,
+.textbox-warning .text-message  {
+    color: var(--warning-color);
+}
+
+.input-success .text-message,
+.textbox-success .text-message  {
+    color: var(--success-color);
+}
+
+.input-text:focus,
+.input-inline .text-label:focus-within {
+    outline: var(--text-color) solid 0.1rem;
+}
+
+.input-default .input-text:focus,
+.textbox-default .input-textbox:focus,
+.input-inline.input-default .text-label:focus-within {
+    outline-color: var(--primary-active-color);
+}
+
+.input-error .input-text:focus,
+.textbox-error .input-textbox:focus,
+.input-inline.input-error .text-label:focus-within  {
+    outline-color: var(--error-color);
+}
+
+.input-warning .input-text:focus,
+.textbox-warning .input-textbox:focus,
+.input-inline.input-warning .text-label:focus-within  {
+    outline-color: var(--warning-color);
+}
+
+.input-success .input-text:focus,
+.textbox-success .input-textbox:focus,
+.input-inline.input-success .text-label:focus-within  {
+    outline-color: var(--success-color);
+} */

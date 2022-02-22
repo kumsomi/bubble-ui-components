@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- link to css  -->
+    <!-- <link rel="stylesheet" href="../../styles/component.css"> -->
+    <link rel="stylesheet" href="src/input-comp.css">
+
+    <!-- Font awesome line of version 5.1 -->
+    <script src="https://kit.fontawesome.com/ca89be07d8.js" crossorigin="anonymous"></script>
+    
+    <title>Alerts</title>
+</head>
+<body>
+    <h1 class="heading">
+        input
+    </h1>
+    <div>
+        <!-- inline input -->
+        <div class="input-group input-default m-1 input-inline">
+            <label class="text-label flex align-i-ctr" for="">
+                Name
+                <!-- id="input-inline-name" -->
+                <input type="text"  class="input-text" placeholder="Enter your name here">
+            </label>
+            <span class="text-message "></span>
+        </div>
+
+
+        <!-- input error -->
+        <div class="input-group input-error">
+            <label class="text-label flex--col" for=" ">
+                Email
+                <input type="email" id=" " class="input-text" placeholder="Enter your email...">
+            </label>
+            <span class="text-message-error ">Incorrect Email</span>
+        </div>
+        <!-- input success -->
+        <div class="input-group input-success m-1">
+            <label class="text-label flex-col" for="input-strong-password">
+                Password
+                <input type="password" id=" " class="input-text" placeholder="Enter your password...">
+            </label>
+            <span class="text-message-success">Strong Password</span>
+        </div>
+        
+    </div>
+
+</body>
+</html>
