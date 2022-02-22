@@ -236,6 +236,9 @@ body {
 .flex-direction-col {
   flex-direction: column;
 }
+.flex-direction-row{
+  flex-direction: row;
+}
 
 .flex-wrap {
   flex-wrap: wrap;
