@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-bottom: 0.2rem solid var(--screen-background-color);
+    box-shadow: 0.5rem 0 0 var(--shadow-color);
+    position: sticky;
+    top:0;
+    z-index:10;
+}
+
+.header-logo{
+    margin:5rem;
+    display: flex;
+    justify-content: baseline;
+}
+
+.brand-link {
+    margin-left: auto;
+}
