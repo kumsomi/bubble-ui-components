@@ -131,6 +131,11 @@ body {
   list-style: none;
 }
 
+.text{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: var(--font-weight-regular);
+}
 
 /* Color classes */
 .primary-color{
@@ -142,34 +147,58 @@ body {
 .cta-color{
   color:var(--cta-color);
 }
+.success-color{
+color:var(--success-color);
+}
+.error-color{  
+color:var(  --error-color);
+}
+.warning-color{
+  color:var(--warning-color);
+}
 
-
+/* --font-weight-light: 300;
+--font-weight-regular: 400;
+--font-weight-bold-s: 600;
+--font-weight-bold: 700;
+--font-weight-bold-l: 900; */
 
 /* Heading size :- h-1 is the biggest heading*/
 
 .h-1 {
   font-size: 48px;
   line-height: 64px;
+  font-weight: var(--font-weight-bold-l);
 }
 
 .h-2 {
   font-size: 32px;
   line-height: 40px;
+  font-weight: var(--font-weight-bold);
+
+
 }
 
 .h-3 {
   font-size: 24px;
   line-height: 32px;
+  font-weight: var(--font-weight-bold-s);
+
 }
 
 .h-4 {
   font-size: 16px;
   line-height: 24px;
+  font-weight: var(--font-weight-regular);
+
+
 }
 
 .h-5 {
   font-size: 8px;
   line-height: 16px;
+  font-weight: var(--font-weight-light);
+
 }
 
 /* Text size:- para-1 is the biggest paragraph size */
