@@ -156,6 +156,9 @@ color:var(  --error-color);
 .warning-color{
   color:var(--warning-color);
 }
+.grey-color{
+  color:var(--grey);
+}
 
 /* --font-weight-light: 300;
 --font-weight-regular: 400;
