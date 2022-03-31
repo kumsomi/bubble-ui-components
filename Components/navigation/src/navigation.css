@@ -12,3 +12,6 @@
 .navigation-brand-link {
     margin-left: auto;
 }
+.navigation-search-input{
+    border-radius: 1rem;
+}
