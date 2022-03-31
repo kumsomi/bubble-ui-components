@@ -12,7 +12,7 @@
 .header-logo{
     margin:5rem;
     display: flex;
-    justify-content: baseline;
+    /* justify-content: baseline; */
 }
 
 .brand-link {
