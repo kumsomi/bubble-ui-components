@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- link to css -->
+    <link rel="stylesheet" href="../../styles/component.css">
+    
+    <!-- Font awesome line of version 5.1 -->
+    <script src="https://kit.fontawesome.com/ca89be07d8.js" crossorigin="anonymous"></script>
+    
+    <title>Navigation</title>
+</head>
+<body>
+    <!-- Navigation with badges -->
+    <nav class="navigation-bar flex flex-wrap p-1">
+        <span class="h-2">Logo</span>
+        <div class="navigation-brand-link search h-4 m-1">
+            <input class="p-1 primary-color fw-600 navigation-search-input" type="text" placeholder="Search..." name="" id="">
+        </div>
+        <div class="navigation-brand-link">
+            <ul class="nav-menu no-bullet spaced-list mt-2">
+                <div class="badge iconic-pills">
+                    <span class="badge-icon icon-btn"><i class="fab fa-gratipay"></i></span> 
+                    <p class="badge-text top right">24</p>  
+                </div>
+                <li class="menu-pills">
+                    <a class="linking link-btn h-4 no-link " href="#">Wishlist</a>
+                </li>
+                <div class="badge iconic-pills">
+                    <span class="badge-icon icon-btn"><i class="fas fa-shopping-cart "></i></span>
+                    <p class="badge-text top right">24</p>
+                </div>
+                <li class="menu-pills">
+                    <a class="linking link-btn h-4 no-link " href="#">Shopping Cart</a>
+                </li>
+                <div class="badge iconic-pills">
+                    <span class="badge-icon icon-btn"><i class="fas fa-user"></i></span>
+                </div>
+                <li class="menu-pills">
+                    <a class="linking link-btn h-4 no-link " href="#">User Login</a>
+                </li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <script src="src/navigation.js"></script>
+</body>
+</html>

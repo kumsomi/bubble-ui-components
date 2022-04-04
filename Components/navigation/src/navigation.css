@@ -20,6 +20,9 @@
 /* .nav-link:hover{
     color: var(--cta-color);
 } */
+.menu-pills{
+    display: none;
+}
 .hamburger{
     display: none;
     cursor:pointer;
@@ -45,7 +48,12 @@
     .hamburger{
         display:block;
     }
-
+    .menu-pills{
+        display: block;
+    }
+    .iconic-pills{
+        display: none;
+    }
     /* changing the hamburger bars into a cross 
     1. hiding the first bar
     2. translating the second bar into diagonal line
