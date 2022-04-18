@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- link to css -->
+    <link rel="stylesheet" href="../../styles/component.css">
+    
+    <!-- Font awesome line of version 5.1 -->
+    <script src="https://kit.fontawesome.com/ca89be07d8.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="src/asidebar.css"> -->
+    <title>Aside Bar</title>
+</head>
+<body>
+    <nav class="navigation-bar flex flex-wrap p-2">
+        <span class="h-2">Logo</span>
+        <!-- search options -->
+        <div class="navigation-brand-link search h-4 m-1">
+            <input class="p-1 primary-color fw-600 navigation-search-input" type="text" placeholder="Search..." name="" id="">
+        </div>
+        <!-- brand-links -->
+        <div class=" navigation-brand-link h-4 ">
+            <!-- m-1 -->
+            <ul class="no-bullet spaced-list mt-2">
+                <!-- fw-400 fs-l -->
+                <li>
+                    <a class="linking link-btn h-4 no-link " href="#">Link1</a>
+                </li>
+                <li>
+                    <a class="linking link-btn h-4 no-link " href="#">Link2</a>
+                </li>
+            </ul>
+        </div>
+        <div class="side-hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <aside class="aside-bar nav-menu">
+        <div class="aside-tab navbar flex flex-direction-col ">
+            <h4 class="h-4 nav-heading">
+                Getting Started-
+            </h4>
+
+            <ul class="no-bullet para-4">
+                <li class="active"><a class="no-link" href="#">Introduction</a></li>
+            </ul>
+            <h4 class="h-4 nav-heading">
+                Component
+            </h4>
+            <ul class=" no-bullet para-4">
+                <li ><a class="no-link" href="components/alert/alert.html">Alert</a></li>
+                <li><a class="no-link" href="components/avatar/avatar.html">Avatar</a></li>
+                <li><a class="no-link" href="components/Badge/badge.html">Badge</a></li>
+                <li><a class="no-link " href="components/Button/button.html">Buttons</a></li>
+                <li><a class="no-link " href="components/Card/card.html">Cards</a></li>
+                <li><a class="no-link " href="components/grid/grid.html">Grids</a></li>
+                <li><a class="no-link " href="components/image/image.html">Images</a></li>
+                <li><a class="no-link" href="components/input/input.html">Inputs</a></li>
+                <li><a class="no-link " href="components/list/list.html">Lists</a></li>
+                <li><a class="no-link " href="components/modal/modal.html">Modal</a></li>
+                <li><a class="no-link " href="components/rating/rating.html">Rating</a></li>
+                <li><a class="no-link " href="components/toast/toast.html">Toast</a></li>
+                <li><a class="no-link" href="components/typography/typography.html">Typography</a></li>
+                <li><a class="no-link" href="components/navigation/navigation.html">Navigation</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <script src="src/asidebar.js"></script>
+</body>
+</html>
