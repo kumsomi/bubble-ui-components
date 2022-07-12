@@ -1,5 +1,5 @@
 
-.input-container{
+/* .input-container{
   font-size: 1rem;
   line-height: 1.5;
   color:var(--primary-color);
@@ -29,8 +29,7 @@
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
-  /* min-width:380px;
-  max-width:90%; */
+
   width: 80%;
   margin: 1rem;
   background-color:var(--secondary-color);
@@ -40,10 +39,8 @@
   grid: auto/1fr 1fr;
   column-gap:1rem;
   row-gap:2rem;
-  /* padding:10rem; */
   box-shadow: 0 0.75rem 2rem 0 var(--shadow-color);
   font-size: 1.5rem;
-  /* padding-bottom: 10rem; */
   border-radius: 1rem;
 }
 
@@ -100,7 +97,6 @@
   grid-column: span 2;
 }
 
-/* error message */
 .error-message {
 	display: none;
 	font-weight: bold;
@@ -109,7 +105,6 @@
 
 
 
-/* validating the input */
 input:not(:focus):not(:placeholder-shown):invalid {
 	border-color: var(--color-invalid);
 }
@@ -117,11 +112,11 @@ input:not(:focus):not(:placeholder-shown):invalid {
 input:not(:focus):not(:placeholder-shown):invalid ~ 
 .error-message{
 	display: block;	
-}
+} */
 
 /* Only show valid ring while not focused and if a value is entered */
 /* :empty won't work here as that targets elements that have no childeren. Therefore we abuse :placeholder-shown */
-input:not(:focus):not(:placeholder-shown):valid {
+/* input:not(:focus):not(:placeholder-shown):valid {
 	border-color: var(--color-valid);
-}
+} */
 
