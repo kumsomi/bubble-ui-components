@@ -252,9 +252,9 @@
 
 /* For tablets screen */
 @media screen and (max-width: 800px) {
-  .vertical{
+/*   .vertical{
     width: 70%;
-  }
+  } */
   .horizontal {
     grid-template-areas: "h-img" "h-txt";
     width: 70%;
