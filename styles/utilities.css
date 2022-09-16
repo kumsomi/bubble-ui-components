@@ -261,7 +261,12 @@ color:var(  --error-color);
 .align-i-ctr {
   align-items: center;
 }
-
+.align-s-ctr{
+  align-self: center;
+}
+.justify-s-ctr{
+  justify-self: center;
+}
 .flex-row{
   flex-direction:row;
 }
